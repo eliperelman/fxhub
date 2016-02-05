@@ -1,0 +1,23 @@
+{
+  "apps": [{
+    "name": "base",
+    "script": "/home/pi/fxhub/base",
+    "cwd": "/home/pi/fxhub/base"
+  }, {
+    "name": "web",
+    "script": "/home/pi/fxhub/web",
+    "cwd": "/home/pi/fxhub/web",
+    "env": {
+      "PORT": 80
+    }
+  }, {
+    "name": "firewall",
+    "script": "/home/pi/fxhub/firewall",
+    "cwd": "/home/pi/fxhub/firewall",
+  }, {
+    "name": "storage",
+    "script": "/home/pi/fxhub/storage",
+    "cwd": "/home/pi/fxhub/storage"
+  }]
+}
+

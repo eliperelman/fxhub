@@ -1,0 +1,16 @@
+{
+  "name": "fx-hub-storage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Eli Perelman <eli@eliperelman.com>",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "nedb": "1.7.4",
+    "seneca": "1.0.0",
+    "seneca-balance-client": "0.2.0",
+    "seneca-mesh": "0.3.0"
+  }
+}
